@@ -29,6 +29,10 @@ Check the console and pay attention to the logged value of `isActive`. You will 
 
 Can you explain why this happens?
 
+SOLUTION:
+
+Wenn man in React den Zustand einer Komponente ändert, passiert die Änderung nicht sofort. Wenn man also direkt nach dem Ändern des Zustands via console.log nachschauen möchte, ob sich der Zustand geändert hat, ist dieser noch beim vorherigen Zustand.
+
 ## Notes
 
 - There is no need to change anything in the return statement of the `App` component (except for the bonus task).
