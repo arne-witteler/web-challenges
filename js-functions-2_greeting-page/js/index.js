@@ -37,7 +37,15 @@ function getGreeting() {
 }
 
 function getDayColor() {
-  // Code here
+  const day = new Date().getDay();
+
+  if (day === 1) {
+    return "darkgray";
+  } else if (day >= 2 && day <= 5) {
+    return "lightblue";
+  } else {
+    return "hotpink";
+  }
 }
 
 display.textContent = getGreeting();
