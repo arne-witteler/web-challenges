@@ -7,13 +7,18 @@ import { volumes } from "@/lib/data";
 export default function Volumes() {
   const router = useRouter();
   const { slug } = router.query;
-  const currentVolume = volumes.find((volume) => volume.slug === slug);
 
-  if (!currentVolume) {
+  const volumeIndex = volumes.findIndex((volume) => volume.slug === slug);
+
+  const volume = volumes[volumeIndex];
+  const previousVolume = volumes[volumeIndex - 1];
+  const nextVolume = volumes[volumeIndex + 1];
+
+  if (!volume) {
     return null;
   }
 
-  const { title, description, books, cover } = currentVolume;
+  const { title, description, books, cover } = volume;
 
   return (
     <div>
@@ -32,6 +37,18 @@ export default function Volumes() {
         ))}
       </ul>
       <Image src={cover} width={140} height={230} alt={`Cover of ${title}`} />
+      {previousVolume ? (
+        <div>
+          <Link href={`/volumes/${previousVolume.slug}`}>
+            ← Previous Volume
+          </Link>
+        </div>
+      ) : null}
+      {nextVolume ? (
+        <div>
+          <Link href={`/volumes/${nextVolume.slug}`}>Next Volume →</Link>
+        </div>
+      ) : null}
     </div>
   );
 }
