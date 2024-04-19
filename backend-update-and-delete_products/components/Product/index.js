@@ -48,6 +48,7 @@ export default function Product() {
         <ProductForm
           onSubmit={handleEditProduct}
           formHeading="Edit Product Details"
+          initialValues={data}
         />
       ) : (
         <>
