@@ -12,7 +12,6 @@ Hint: You can work with the property "style", just like you worked with the prop
 For further information check MDN:
 - about inputs of type="range": https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range
 - about hsl(): https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/hsl
-- about transform & rotate: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
 - about CSS declarations with "style": https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style
 
 */
@@ -23,7 +22,7 @@ const borderRadiusSlider = document.querySelector('[data-js="input-radius"]');
 const rotationSlider = document.querySelector('[data-js="input-rotation"]');
 
 colorSlider.addEventListener("input", () => {
-  boxElement.style.backgroundColor = `hsl(${colorSlider.value}, 80%, 90%)`;
+  boxElement.style.backgroundColor = `hsl(${colorSlider.value}, 100%, 50%)`;
 });
 
 borderRadiusSlider.addEventListener("input", () => {
