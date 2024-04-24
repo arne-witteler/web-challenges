@@ -2,6 +2,8 @@
 
 ### Hello, I`d describe myself as ...
 
+- <span style="color:red">**as a generalist who can quickly become enthusiastic about things, but also often loses enthusiasm for something.**</span>
+
 - most enthusiastic about working on projects/ topics that really interest me
 - a Person that really cares about reliability
 - a person willing to compromise in a team
