@@ -4,6 +4,7 @@
 
 - most enthusiastic about working on projects/ topics that really interest me
 - a Person that really cares about reliability
+- a person willing to compromise in a team
 
 ---
 
