@@ -1,6 +1,6 @@
 # Repetition: `map` and `filter`
 
-This codesandbox offers a some exercises to recap the array methods `map` and `filter`. Let's dive into them (again)!
+This codesandbox offers some exercises to recap the array methods `map` and `filter`. Let's dive into them (again)!
 
 ## Task
 
