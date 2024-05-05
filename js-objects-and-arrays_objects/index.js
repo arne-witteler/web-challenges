@@ -28,6 +28,9 @@ const personToChange = {
   age: 24,
 };
 
+personToChange.name = "Alex";
+personToChange.age = 35;
+
 // EXERCISE 4
 // Add the properties age "5" and breed "husky" to the object petPluto: pet.newProperty = newValue.
 
