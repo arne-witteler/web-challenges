@@ -50,6 +50,8 @@ fruitsWithPop.pop();
 
 const unshiftedPets = ["dog", "cat", "rabbit"];
 
+unshiftedPets.unshift("hamster");
+
 // EXERCISE 9
 // Use the shift method to remove the first item from shiftedFruits.
 
