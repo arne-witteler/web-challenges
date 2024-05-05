@@ -4,7 +4,9 @@ console.clear();
 // Create an object personWithNameAgeEmail with the properties "name", "age" and "email".
 
 const personWithNameAgeEmail = {
-  example: "example",
+  name: "Tom",
+  age: 26,
+  email: "abc@efg.com",
 };
 
 // EXERCISE 2
