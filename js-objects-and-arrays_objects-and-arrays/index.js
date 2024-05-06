@@ -65,7 +65,7 @@ const ageOfThirdPerson = people[2].age;
 // EXERCISE 4
 // Change the value of the variable mothersNameOfSecondPerson to equal the mothers name of the second person.
 
-const mothersNameOfSecondPerson = "change me";
+const mothersNameOfSecondPerson = people[1].parents.mothersName;
 
 // EXERCISE 5
 // Change the value of the variable animaltypeOfLisasPet to equal the type of animal of Lisas pet.
