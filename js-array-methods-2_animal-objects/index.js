@@ -118,7 +118,10 @@ const animalsSortedByWeightReversed = animalsSortedByWeightStartingWithLowest
   .reverse();
 console.log(animalsSortedByWeightReversed);
 
-const animalWithWeightMoreThanFivehundredExists = null;
+const animalWithWeightMoreThanFivehundredExists = animals.some(
+  (animal) => animal.weight > 500
+);
+console.log(animalWithWeightMoreThanFivehundredExists);
 
 // Hint: Filter for Europe first, then check every animal for its weight.
 const allAnimalsInEuropeWeighLessThanOnehundred = null;
