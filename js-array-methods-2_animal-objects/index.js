@@ -113,7 +113,10 @@ const animalsSortedByWeightStartingWithLowest = animals
   .sort((a, b) => a.weight - b.weight);
 console.log(animalsSortedByWeightStartingWithLowest);
 
-const animalsSortedByWeightReversed = null;
+const animalsSortedByWeightReversed = animalsSortedByWeightStartingWithLowest
+  .slice()
+  .reverse();
+console.log(animalsSortedByWeightReversed);
 
 const animalWithWeightMoreThanFivehundredExists = null;
 
